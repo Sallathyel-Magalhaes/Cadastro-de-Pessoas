@@ -59,5 +59,25 @@ namespace VSproject.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_analisar_da_área_de_transferência_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-analisar-da-área-de-transferência-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_configuração_do_projeto_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-configuração-do-projeto-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
