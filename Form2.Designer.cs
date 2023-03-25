@@ -35,6 +35,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -115,6 +116,16 @@
             label3.TabIndex = 5;
             label3.Text = "Configurações";
             // 
+            // button4
+            // 
+            button4.Location = new Point(345, 258);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 6;
+            button4.Text = "Sair";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -122,6 +133,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(467, 318);
+            Controls.Add(button4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -149,5 +161,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button button4;
     }
 }

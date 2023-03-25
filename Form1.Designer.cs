@@ -49,6 +49,7 @@
             button1.TabIndex = 1;
             button1.Text = "Conectar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
@@ -56,6 +57,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(147, 23);
             textBox1.TabIndex = 2;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -89,6 +91,7 @@
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(147, 23);
             textBox2.TabIndex = 5;
+            textBox2.TextChanged += textBox2_TextChanged_1;
             // 
             // pictureBox1
             // 
